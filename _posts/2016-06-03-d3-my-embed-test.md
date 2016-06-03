@@ -34,22 +34,21 @@ div.example {
 }
 
 </style>
-
+<body>
+   <h1 class="title"> New Banning Orders by club between 2014-15 </h2>
 <script src="//d3js.org/d3.v3.min.js"></script>
-<script src="http://bl.ocks.org/mbostock/raw/4061502/0a200ddf998aa75dfdb1ff32e16b680a15e5cb01/box.js"></script>
-<script>
 
+<script>
+/* JavaScript starts here. */
+
+/* Chart spaces dimensions, axes and their scales goes here. */
 
 var margin = {top: 10, right: 60, bottom: 100, left: 150},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
-var chart = d3.box()
-    .width(width)
-    .height(height);
-
 var x = d3.scale.linear()
-    .range([0, width]);
+    .range([0, width]);/* This changes space between bars. */
 
 var y = d3.scale.ordinal()
     .rangeRoundBands([0, height], 0.1);
@@ -64,8 +63,7 @@ var yAxis = d3.svg.axis()
     .tickSize(0)
     .tickPadding(6);
 
-var svg = d3.select("div#example").append("svg")
-    .attr("class", "box")
+var svg = d3.select("div#example").selectAll("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
