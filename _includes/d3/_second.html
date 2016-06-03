@@ -13,7 +13,7 @@
 
 
 <script type="text/javascript">
-var data = d3.csv("/dataibt.csv", type, function (error, data) {
+d3.csv("/dataibt.csv", type, function (error, data) {
   x.domain(d3.extent(data, function(d) {return d.value; })).nice();
   y.domain(data.map(function(d) {return d.name; }));
   
