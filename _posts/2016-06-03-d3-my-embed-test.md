@@ -78,7 +78,8 @@ var yAxis = d3.svg.axis()
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
       .call(chart);
 
-d3.csv("/dataibt.csv", type, function (error, data) {
+d3.csv("/dataibt.csv", type, function (error, csv) {
+  var data = [];
   x.domain(d3.extent(data, function(d) {return d.value; })).nice();
   y.domain(data.map(function(d) {return d.name; }));
 
