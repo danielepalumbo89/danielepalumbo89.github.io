@@ -68,11 +68,13 @@ var yAxis = d3.svg.axis()
     .tickSize(0)
     .tickPadding(6);
 
-d3.csv("/dataibt.csv", type, function (error, data) {
+d3.csv("/dataibt.csv", type, function (error, csv) {
+  var data = [];
   x.domain(d3.extent(data, function(d) {return d.value; })).nice();
   y.domain(data.map(function(d) {return d.name; }));
 
  var svg = d3.select("div#example").selectAll("svg")
+      .data(data)
     .enter().append("svg")
       .attr("class", "box")
       .attr("width", width + margin.left + margin.right)
