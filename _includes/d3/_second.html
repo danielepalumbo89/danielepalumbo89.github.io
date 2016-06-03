@@ -36,6 +36,8 @@ var yAxis = d3.svg.axis()
     .tickPadding(6);
 
 var svg = d3.select("div.second").append("svg")
+    .selectAll("div")
+      .data(data)
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
