@@ -45,7 +45,6 @@ var margin = {top: 10, right: 60, bottom: 100, left: 150},
     height = 500 - margin.top - margin.bottom;
 
 var chart = d3.box()
-    .whiskers(iqr(1.5))
     .width(width)
     .height(height);
 
