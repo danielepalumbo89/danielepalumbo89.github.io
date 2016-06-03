@@ -1,5 +1,17 @@
-<div id='convas' style="background: rgb(105, 187, 210)"></div>
+<div class="second"> </div>
 <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+<style>
+.second div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+</style>
+
+
 <script type="text/javascript">
 
 var margin = {top: 10, right: 60, bottom: 100, left: 150},
@@ -22,7 +34,7 @@ var yAxis = d3.svg.axis()
     .tickSize(0)
     .tickPadding(6);
 
-var svg = d3.select("div#convas").append("svg")
+var svg = d3.select("div.second").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
