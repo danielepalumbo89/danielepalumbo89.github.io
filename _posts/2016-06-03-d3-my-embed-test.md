@@ -69,7 +69,7 @@ var svg = d3.select("div#example").selectAll("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("/data/dataibt.csv", type, function (error, data) {
+d3.csv("/dataibt.csv", type, function (error, data) {
   x.domain(d3.extent(data, function(d) {return d.value; })).nice();
   y.domain(data.map(function(d) {return d.name; }));
 
