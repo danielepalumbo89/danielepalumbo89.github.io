@@ -4,13 +4,7 @@ title:  "Testing d3 with Markdown"
 date: 2016-06-03
 ---
 
-This is from a [Stack Overflow question](http://stackoverflow.com/questions/22651346/how-to-embed-a-d3-js-example-to-the-jekyll-blog-post) about embedding a d3.js example in a Jekyll blog post (written in Markdown).
-
-This should work, but it looks like the challenge from the [referenced d3 example](http://bl.ocks.org/mbostock/4061502) is have a proper target element in the document. The example uses an `<iframe>` element, which embeds another HTML document where the target element is `<body>`. Here, I've embedded the same iframe:
-
-<iframe src="http://bl.ocks.org/mbostock/raw/4061502/0a200ddf998aa75dfdb1ff32e16b680a15e5cb01/" width="600" height="400" marginwidth="0" marginheight="0" scrolling="no"></iframe>
-
-And here, I've used d3 to target an element `<div id="example">` in this document:
+D3.js embedding test in jekyll + github pages
 
 <style>
 
