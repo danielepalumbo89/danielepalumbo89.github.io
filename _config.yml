@@ -1,2 +1,3 @@
 name: Daniele Palumbo, Data Journalist
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
