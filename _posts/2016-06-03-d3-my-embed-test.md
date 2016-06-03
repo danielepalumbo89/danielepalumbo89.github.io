@@ -68,7 +68,7 @@ var yAxis = d3.svg.axis()
     .tickSize(0)
     .tickPadding(6);
 
-d3.csv("/dataibt.csv", type, function (error, csv) {
+d3.csv("/dataibt.csv", type, function (error, data) {
   x.domain(d3.extent(data, function(d) {return d.value; })).nice();
   y.domain(data.map(function(d) {return d.name; }));
 
