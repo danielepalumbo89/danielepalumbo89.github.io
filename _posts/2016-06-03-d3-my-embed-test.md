@@ -50,7 +50,7 @@ var chart = d3.box()
     .height(height);
 
 var x = d3.scale.linear()
-    .range([0, width]);/
+    .range([0, width]);
 
 var y = d3.scale.ordinal()
     .rangeRoundBands([0, height], 0.1);
