@@ -39,6 +39,7 @@ div.example {
 <script src="http://bl.ocks.org/mbostock/raw/4061502/0a200ddf998aa75dfdb1ff32e16b680a15e5cb01/box.js"></script>
 <script>
 
+
 var margin = {top: 10, right: 60, bottom: 100, left: 150},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
@@ -47,11 +48,7 @@ var chart = d3.box()
     .whiskers(iqr(1.5))
     .width(width)
     .height(height);
-    
-d3.csv("/data/dataibt.csv", type, function (error, data) {
-  x.domain(d3.extent(data, function(d) {return d.value; })).nice();
-  y.domain(data.map(function(d) {return d.name; }));
-    
+
 var x = d3.scale.linear()
     .range([0, width]);/
 
@@ -74,6 +71,10 @@ var svg = d3.select("div#example").append("svg")
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+d3.csv("/data/dataibt.csv", type, function (error, data) {
+  x.domain(d3.extent(data, function(d) {return d.value; })).nice();
+  y.domain(data.map(function(d) {return d.name; }));
 
   svg.selectAll(".bar")
       .data(data)
