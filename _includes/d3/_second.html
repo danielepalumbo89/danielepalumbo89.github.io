@@ -75,12 +75,12 @@ var svg = d3.select("div.second").selectAll("div")
       .attr("width", function(d) { return Math.abs(x(d.value) - x(0)); })
       .attr("height", y.rangeBand());
 
-  svg.append("div")
+  svg.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis)
       
-  svg.append("div")
+  svg.append("g")
       .attr("class", "y axis")
       .attr("transform", "translate(" + x(0) + ",0)")
       .call(yAxis);  
