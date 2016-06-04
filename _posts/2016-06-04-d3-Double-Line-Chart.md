@@ -14,7 +14,7 @@ D3.js embedding test in jekyll + github pages
   </head>
 <body>
   <div>
-    <h1 style="text-align:center;">Vertical Bar Graph</h1>
+    <h1 style="text-align:center;">Double Line Graph</h1>
     <script type="text/javascript" src="/js/chart3/double_line.js"></script>
   </div>
 </body>
