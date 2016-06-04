@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Testing d3 with Markdown - My test"
+title:  "Simple Bar Chart"
 date: 2016-06-04
 ---
 
