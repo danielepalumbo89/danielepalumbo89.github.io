@@ -31,7 +31,7 @@ var svg = d3.select("body").append("svg")
 
 svg.call(tip);
 
-d3.csv("data.csv", function(error, data) {
+d3.csv("/js/chart1/dataibt.csv", function(error, data) {
 
   data.forEach(function(d) {
     d.frequency = +d.frequency;
