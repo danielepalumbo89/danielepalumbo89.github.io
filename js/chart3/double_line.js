@@ -44,7 +44,7 @@ function make_y_axis() {
         .ticks(9)
 }
 
-d3.csv("data.csv", function(error, data) {
+d3.csv("/js/chart3/data.csv", function(error, data) {
   if (error) throw error;
 
   color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
