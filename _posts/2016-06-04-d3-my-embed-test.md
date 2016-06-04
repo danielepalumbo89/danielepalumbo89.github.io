@@ -11,6 +11,7 @@ D3.js embedding test in jekyll + github pages
   <title>D3js bar chart </title>
   <link rel="stylesheet" type="text/css" href="/js/chart1/stylesheet.css">
   <script src="//d3js.org/d3.v3.min.js"></script>
+  <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 </head>
 <body>
   <h1 style="text-align:center;">Bar Graph</h1>
