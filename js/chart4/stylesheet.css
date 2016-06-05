@@ -1,0 +1,47 @@
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: orange;
+}
+
+.bar:hover {
+  fill: orangered ;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.d3-tip {
+  font: 14px sans-serif;
+  line-height: 1;
+  font-weight: bold;
+  padding: 8px;
+  color: #252525;
+  border-radius: 12px;
+  
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+div.tooltip { 
+    position: absolute;     
+    text-align: center;     
+    width: 60px;          
+    height: 28px;         
+    padding: 5px;       
+    font: 45px sans-serif;    
+    border: 0px;    
+    border-radius: 8px;     
+    pointer-events: none;     
+}
