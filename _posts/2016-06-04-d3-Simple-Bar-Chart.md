@@ -6,7 +6,7 @@ date: 2016-06-04
 
 <h2>D3.js live version of a bar chart with tooltip</h2> 
 Given the complexity that the code may assume if overloaded with transitions and animations, I decided to keep the the visualisation simple so to show how fast it loads up on the page and also - building this static page - how perfectly fit in a really simple CMS.
-
+<div>
 <head>
   <meta charset="utf-8">
   <title>D3js bar chart </title>
@@ -20,7 +20,7 @@ Given the complexity that the code may assume if overloaded with transitions and
     <script type="text/javascript" src="/js/chart1/bar.js"></script>
   </div>
 </body>
-
+</div>
 Here is the code for the above
 <div>
 <script src="https://gist.github.com/danielepalumbo89/277a7141875d5d687ecce8d64028b92b.js"></script>
