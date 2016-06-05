@@ -16,7 +16,7 @@ Given the complexity that the code may assume if overloaded with transitions and
 </head>
 <body>
   <div>
-    <h1>Bar Graph</h1>
+    <h1>Total number of Banning Orders in Premier League 2014-15</h1>
     <script type="text/javascript" src="/js/chart1/bar.js"></script>
   </div>
 </body>
