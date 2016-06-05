@@ -39,7 +39,7 @@ d3.csv("/js/chart1/dataibt.csv", function(error, data) {
   });
 
   x.domain(data.map(function(d) { return d.letter; }));
-  y.domain([0, d3.max(data, function(d) { return d.frequency; })]);
+  y.domain([0, 140]);
 
   svg.append("g")
       .attr("class", "x axis")
