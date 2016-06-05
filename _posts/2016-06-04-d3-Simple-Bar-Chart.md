@@ -12,6 +12,7 @@ The style adopted is very simple, however the colours has been taken from the IB
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="/js/chart1/stylesheet.css">
+  <label><input type="checkbox"> Sort values</label>
   <script src="//d3js.org/d3.v3.min.js"></script>
   <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 </head>
