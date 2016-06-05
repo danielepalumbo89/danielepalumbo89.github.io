@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Simple Bar Chart"
+title:  "D3.js live version of a bar chart with tooltip and animation"
 date: 2016-06-04
 ---
 
-<h2>D3.js live version of a bar chart with tooltip</h2> 
+<h2>D3.js live version of a bar chart with tooltip and animation</h2> 
 Given the complexity that the code may assume if overloaded with transitions and animations, I decided to keep the the visualisation simple so to show how fast it loads up on the page and also - building this static page - how perfectly fit in a really simple CMS.
 <div>
 <head>
