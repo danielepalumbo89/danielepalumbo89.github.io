@@ -15,5 +15,9 @@ date: 2016-06-05
 <body>
     <script type="text/javascript" src="/js/chart7/linetooltip.js"></script>
   </div>
+<div> 
+  And another simply variation:
+  <script type="text/javascript" src="/js/chart7/linetooltip.js"></script>
+</div> 
 </body>
 </div>
