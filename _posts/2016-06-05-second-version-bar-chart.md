@@ -13,8 +13,6 @@ date: 2016-06-05
   <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 </head>
 <body>
-    <br>
-    <br>
     <script type="text/javascript" src="/js/chart4/barII.js"></script>
   </div>
 </body>
