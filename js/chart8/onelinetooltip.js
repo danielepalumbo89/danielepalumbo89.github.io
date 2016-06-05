@@ -50,7 +50,7 @@ d3.csv("/js/chart8/data.csv", function(error, data) {
 
     // Scale the range of the data
     x.domain(d3.extent(data, function(d) { return d.date; }));
-    y.domain([0, 220]);
+    y.domain([40, 220]);
 
     // Add the valueline path.
     lineSvg.append("path")
