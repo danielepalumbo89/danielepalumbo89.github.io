@@ -50,7 +50,7 @@ function make_y_axis() {
 
 svg.call(tip);
 
-d3.csv("data.csv", function(error, data) {
+d3.csv("/js/chart5/data.csv", function(error, data) {
   if (error) throw error;
 
 // Create categories to group (ps. use different names from the standards ed. date/value)
