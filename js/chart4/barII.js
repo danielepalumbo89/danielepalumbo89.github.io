@@ -39,7 +39,7 @@ var svg = d3.select("body").append("svg")
 
 svg.call(tip);
 
-d3.csv("data.csv", type, function(error, data) {
+d3.csv("/js/chart4/data.csv", type, function(error, data) {
   if (error) throw error;
 
   x.domain(data.map(function(d) { return d.date; }));
