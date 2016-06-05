@@ -19,8 +19,8 @@ The style adopted is very simple, however the colours has been taken from the IB
   <div>
     <h1>Total number of Banning Orders in Premier League 2014-15</h1>
     <label><input type="checkbox"> Sort values</label>
-    
-    
+    <br>
+    <br>
     <script type="text/javascript" src="/js/chart1/bar.js"></script>
   </div>
 </body>
