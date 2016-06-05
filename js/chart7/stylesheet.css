@@ -1,0 +1,28 @@
+path { 
+    stroke: #a50f15;
+    stroke-width: 3;
+    fill: none;
+}
+
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 0.5;
+    shape-rendering: crispEdges;
+}
+
+.grid .tick {
+    stroke: lightgrey;
+    stroke-opacity: 0.5;
+    shape-rendering: crispEdges;
+}
+.grid path {
+          stroke-width: 1;
+}
+
+.area {
+    fill: #fb6a4a;
+      stroke-width: 0;
+}
