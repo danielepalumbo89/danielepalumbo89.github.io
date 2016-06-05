@@ -20,3 +20,8 @@ Given the complexity that the code may assume if overloaded with transitions and
     <script type="text/javascript" src="/js/chart1/bar.js"></script>
   </div>
 </body>
+
+Here is the code for the above
+<div>
+<script src="https://gist.github.com/danielepalumbo89/277a7141875d5d687ecce8d64028b92b.js"></script>
+</div>
