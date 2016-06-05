@@ -4,8 +4,8 @@ title:  "Simple Bar Chart"
 date: 2016-06-04
 ---
 
-D3.js Live version of a bar chart with tooltip. 
-Given the complexity that the code may assume if overloaded with transitions and animations, I decided to keep the code and the visualisation simple so to show how fast it shows up on the page and also - building this static page - how perfectly fit in a really simple CMS.
+<h2>D3.js live version of a bar chart with tooltip</h2> 
+Given the complexity that the code may assume if overloaded with transitions and animations, I decided to keep the the visualisation simple so to show how fast it loads up on the page and also - building this static page - how perfectly fit in a really simple CMS.
 
 <head>
   <meta charset="utf-8">
