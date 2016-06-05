@@ -18,7 +18,7 @@
 }
 
 .x.axis path {
-  display: none;
+  display: line;
 }
 
 .grid .tick {
