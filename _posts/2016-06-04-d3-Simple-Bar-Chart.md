@@ -4,7 +4,8 @@ title:  "Simple Bar Chart"
 date: 2016-06-04
 ---
 
-D3.js embedding test in jekyll + github pages
+D3.js Live version of a bar chart with tooltip. 
+Given the complexity that the code may assume if overloaded with transitions and animation, I decided to keep the code and the visualisation simple so to show how fast it shows up on the page and also - building this static page - how perfectly fit in a really simple CMS.
 
 <head>
   <meta charset="utf-8">
@@ -15,7 +16,7 @@ D3.js embedding test in jekyll + github pages
 </head>
 <body>
   <div>
-    <h1 style="text-align:center;">Bar Graph</h1>
+    <h1>Bar Graph</h1>
     <script type="text/javascript" src="/js/chart1/bar.js"></script>
   </div>
 </body>
