@@ -44,7 +44,7 @@ function make_y_axis() {
 }
 
 // Get the data
-d3.csv("data.csv", function(error, data) {
+d3.csv("/js/chart7/data.csv", function(error, data) {
     data.forEach(function(d) {
         d.date = parseDate(d.date);
         d.close = +d.close;
