@@ -106,7 +106,7 @@ var legend = svg.selectAll(".legend")
 
   legend.append("circle")
       .attr("cx", width - 18)
-      .attr("cy", 10)
+      .attr("cy", 30)
       .attr("r", 8)
       .attr("width", 10)
       .attr("height", 10)
@@ -114,7 +114,7 @@ var legend = svg.selectAll(".legend")
 
   legend.append("text")
       .attr("x", width - 30)
-      .attr("y", 9)
+      .attr("y", 30)
       .attr("dy", ".35em")
       .style("text-anchor", "end")
       .text(function(d) { return d; });
