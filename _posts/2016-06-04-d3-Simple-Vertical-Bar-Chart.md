@@ -9,7 +9,7 @@ Given the complexity that the code may assume if overloaded with transitions and
 
 <head>
   <meta charset="utf-8">
-  <title>New Banning Orders by club between 2014-15</title>
+ 
   <link rel="stylesheet" type="text/css" href="/js/chart2/stylesheet.css">
   <script src="//d3js.org/d3.v3.min.js"></script>
   </head>
