@@ -5,7 +5,6 @@ date: 2016-07-13
 ---
 
 <h2>Leaflet Mobile Map</h2>
-<div>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -14,6 +13,6 @@ date: 2016-07-13
 </head>
 <body>
     <script type="text/javascript" src="/js/leaflet/leafletmap.js"></script>
-  </div>
+
 </body>
-</div>
+
