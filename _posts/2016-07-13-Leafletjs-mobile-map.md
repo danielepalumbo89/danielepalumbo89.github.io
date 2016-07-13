@@ -12,7 +12,8 @@ date: 2016-07-13
   <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 </head>
 <body>
+  <div>
     <script type="text/javascript" src="/js/leaflet/leafletmap.js"></script>
-
+  </div>
 </body>
 
