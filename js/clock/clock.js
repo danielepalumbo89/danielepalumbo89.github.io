@@ -105,4 +105,3 @@ function fields() {
     {index: .1, text: formatMonth(now),  value: now.getMonth() / 12}
   ];
 }
-
