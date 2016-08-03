@@ -1,3 +1,15 @@
+<script id="grid" type="text/plain">
+                                  ME
+ AK                WI          VT NH
+    WA ID MT ND MN IL MI    NY MA
+    OR NV WY SD IA IN OH PA NJ CT RI
+    CA UT CO NE MO KY WV VA MD DC DE
+       AZ NM KS AR TN NC SC
+             OK LA MS AL GA
+    HI       TX             FL
+
+</script>
+
 var states = [],
     banstates = ["CA", "OR", "WA", "CT", "DC", "HI", "MD", "MA", "NJ", "NY", "MN", "IL", "MI", "NM", "ME", "VT", "RI", "DE", "NV", "CO", "IA", "OH", "WI", "NH", "FL", "PA", "NC"],
     regulatestates = ["VA", "ID", "MT", "ND", "SD", "NE", "UT", "KS", "AZ", "OK", "TX", "AK", "WY", "MO", "AR", "LA", "IN", "KY", "WV", "TN", "MS", "AL", "GA", "SC"];
